@@ -1,0 +1,304 @@
+# GUIBUILDER FILE Build 146
+# Created: 2016-09-11 18:25:39 by GUI Builder Build 146
+language perl 8.4
+widget {Tk frame} f {
+	geometry min_column {54 190 612}
+	geometry min_row {62 77 64 2 36 53 40 40}
+	geometry pad_column {0 0 0}
+	geometry pad_row {0 0 0 0 0 0 0 0}
+	geometry resize_column {0 0 0}
+	geometry resize_row {0 0 0 0 0 0 0 0}
+	geometry weight_column {0 0 0}
+	geometry weight_row {0 0 0 0 0 0 0 0}
+	data GROUP Tk
+	data ID {}
+	data MASTER {}
+	data TYPE {Tk frame}
+	data level 0
+}
+widget {Tk label} _label_1 {
+	configure -text Host:
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID host_label
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk entry} _entry_1 {
+	configure -background #ffffff
+	configure -width 0
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky ew
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID host_value
+	data MASTER {}
+	data TYPE {Tk entry}
+}
+widget {Tk label} _label_2 {
+	configure -text Username:
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 2
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID user_label
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk entry} _entry_2 {
+	configure -background #ffffff
+	configure -width 0
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 2
+	geometry -rowspan 1
+	geometry -sticky ew
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID user_value
+	data MASTER {}
+	data TYPE {Tk entry}
+}
+widget {Tk label} _label_3 {
+	configure -text Password:
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID pass_label
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk entry} _entry_3 {
+	configure -background #ffffff
+	configure -show *
+	configure -width 0
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky ew
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID pass_value
+	data MASTER {}
+	data TYPE {Tk entry}
+}
+widget {Tk button} _button_1 {
+	configure -background #cccccc
+	configure -text Connect
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID connect_btn
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_2 {
+	configure -text {Change directory}
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 6
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID cwd_btn
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_3 {
+	configure -text Download
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 8
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID download_btn
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_4 {
+	configure -text Upload
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 7
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID upload_btn
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk text} _text_1 {
+	configure -background #ffffff
+	configure -height 0
+	configure -takefocus 1
+	configure -width 0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 3
+	geometry -sticky news
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID log_text
+	data MASTER {}
+	data TYPE {Tk text}
+}
+widget {Tk text} _text_2 {
+	configure -background #ffffff
+	configure -height 0
+	configure -takefocus 1
+	configure -width 0
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 4
+	geometry -sticky news
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID files_list_text
+	data MASTER {}
+	data TYPE {Tk text}
+}
+widget {Tk label} _label_5 {
+	configure -text {Files and Directories}
+	geometry -column 3
+	geometry -columnspan 1
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 132
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID fd_label
+	data MASTER {}
+	data TYPE {Tk label}
+}
+widget {Tk text} _text_3 {
+	configure -background #ffffff
+	configure -height 0
+	configure -width 0
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 5
+	geometry -rowspan 1
+	geometry -sticky news
+	data GROUP Tk
+	data ID file_value
+	data MASTER {}
+	data TYPE {Tk text}
+}
+
